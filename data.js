@@ -241,7 +241,7 @@ radarData = {
         ring: 2,
         label: "GIT",
         active: false,
-        link: "../data_processing/aws_emr.html",
+        link: "https://github.com",
         moved: 0
       },
 {
