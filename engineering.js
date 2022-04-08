@@ -92,7 +92,7 @@ radarData = {
       quadrant: 0,
       ring: 0,
       label: "nhsd-git-secrets",
-      active: false,
+      active: true,
       link: "https://github.com/NHSDigital/software-engineering-quality-framework/tree/main/tools/nhsd-git-secrets",
       moved: 0
     },
@@ -196,6 +196,22 @@ radarData = {
       quadrant: 2,
       ring: 0,
       label: "Azure Devops",
+      active: false,
+      link: "#",
+      moved: 0
+    },
+    {
+      quadrant: 2,
+      ring: 1,
+      label: "GitHub",
+      active: false,
+      link: "#",
+      moved: 0
+    },
+    {
+      quadrant: 2,
+      ring: 0,
+      label: "Gitlab",
       active: false,
       link: "#",
       moved: 0
