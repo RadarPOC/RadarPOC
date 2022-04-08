@@ -4,59 +4,38 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <title>Tech Radar</title>
   <link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
-
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="radar.js"></script>
   <script src="data.js"></script>
-
   <link rel="stylesheet" href="radar.css">
 </head>
-
 <body>
-<svg id="radar"></svg>
-<script>
-radar_visualization(radarData);
-</script>
-<table>
-<tr>
-<td>
-<a href="OtherCategories.html">Other Categories RAG</a>
-<a href="DemisePlan.html">Demise Planning</a>
-
-</td>
-<tr>
-<tr>
-<td>
-
-<h3>What is the Tech Radar?</h3>
-
-<p>
-The Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
-</p>
-
-<ul>
-<li><strong>MAINSTREAM</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in production environment, low risk and recommended to be widely used.</li>
-<li><strong>PROPOSED</strong> &mdash; Technologies that can be explored in new projects, but must be agreed as MAINSTREAM before going to production.</li>
-<li><strong>CONTAIN</strong> &mdash; Technologies that should not be used for new projects, but don't actively need to be removed from existing products.</li>
-<li><strong>AVOID</strong> &mdash; Technologies that should not be used for new projects, and should be actively removed from existing products.</li>
-</ul>
-
-</td><td>
-
-<h3>What is the purpose?</h3>
-
-<p>
-TODO
-</p>
-
-<h3>How do we maintain it?</h3>
-
-<p>
-TODO
-</p>
-
-</td></tr>
+  <svg id="radar"></svg>
+  <script>
+    radar_visualization(radarData);
+  </script>
+  <table>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <h3>What is the Tech Radar?</h3>
+          <p>The Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:</p>
+            <ul>
+              <li><strong>MAINSTREAM</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in production environment, low risk and recommended to be widely used.</li>
+              <li><strong>PROPOSED</strong> &mdash; Technologies that can be explored in new projects, but must be agreed as MAINSTREAM before going to production.</li>
+              <li><strong>CONTAIN</strong> &mdash; Technologies that should not be used for new projects, but don't actively need to be removed from existing products.</li>
+              <li><strong>AVOID</strong> &mdash; Technologies that should not be used for new projects, and should be actively removed from existing products.</li>
+            </ul>
+      </td>
+      <td>
+        <h3>What is the purpose?</h3>
+        <p>TODO</p>
+        <h3>How do we maintain it?</h3>
+        <p>TODO</p>
+      </td>
+    </tr>
 </table>
-  
 </body>
 </html>
