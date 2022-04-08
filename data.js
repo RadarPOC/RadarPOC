@@ -19,10 +19,10 @@ radarData = {
     // { name: "Dave 4" }
   ],
   rings: [
-    { name: "DEPRECATE", color: "#efafa9" },
-    { name: "CONTAIN", color: "#fbdb84" },
     { name: "MAINSTREAM", color: "#93c47d" },
-    { name: "CANDIDATE", color: "#93d2c2" }
+    { name: "PROPOSED", color: "#93d2c2" },
+    { name: "CONTAIN", color: "#fbdb84" },
+    { name: "AVOID", color: "#efafa9" },
   ],
   print_layout: true,
   //zoomed_quadrant: 1,
