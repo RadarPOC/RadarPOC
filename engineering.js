@@ -20,7 +20,7 @@ radarData = {
     { name: "CONTAIN", color: "#fbdb84" },        // ring 2
     { name: "AVOID", color: "#efafa9" }           // ring 3
   ],
-  print_layout: true,
+  print_layout: false,
   //zoomed_quadrant: 1,
   //ENTRIES
   entries: [
