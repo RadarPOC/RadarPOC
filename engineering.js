@@ -219,31 +219,7 @@ radarData = {
     {
       quadrant: 2,
       ring: 0,
-      label: "AWS CodeBuild",
-      active: false,
-      link: "../data_processing/aws_emr.html",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "AWS CodeCommit",
-      active: false,
-      link: "../data_processing/aws_emr.html",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "AWS CodeDeploy",
-      active: false,
-      link: "../data_processing/aws_emr.html",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "AWS CodePipeline",
+      label: "AWS CodeBuild/Commit/etc",
       active: false,
       link: "../data_processing/aws_emr.html",
       moved: 0
