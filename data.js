@@ -9,10 +9,10 @@ radarData = {
   },
   title: "Tech Radar — April 2022",
   quadrants: [
-    { name: "Platform tools: Containers, Serverless, Monitoring" },
-    { name: "Infrastructure, Sys Management, OS"},
-    { name: "CI/CD & Testing/QA Tools" },
-    { name: "Languages, Libraries & Frameworks and Source Code Tools" }
+    { name: "Code analysis" },
+    { name: "Test tools" },
+    { name: "Build tools" },
+    { name: "Observability"},
     // { name: "Dave 1" },
     // { name: "Dave 2" },
     // { name: "Dave 3" },
