@@ -7,18 +7,18 @@ radarData = {
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Tech Radar — Engineering - April 2022",
+  title: "Tech Radar - Engineering - April 2022",
   quadrants: [
-    { name: "Code analysis" },      // quadrant 0
-    { name: "Test tools" },         // quadrant 1
-    { name: "Build tools" },        // quadrant 2
-    { name: "Observability" }        // quadrant 3
+    { name: "Code analysis" },  // quadrant 0
+    { name: "Test tools" },     // quadrant 1
+    { name: "Build tools" },    // quadrant 2
+    { name: "Observability" }   // quadrant 3
   ],
   rings: [
-    { name: "MAINSTREAM", color: "#93c47d" },     // ring 0
-    { name: "PROPOSED", color: "#93d2c2" },       // ring 1
-    { name: "CONTAIN", color: "#fbdb84" },        // ring 2
-    { name: "AVOID", color: "#efafa9" }           // ring 3
+    { name: "MAINSTREAM", color: "#93c47d" }, // ring 0
+    { name: "PROPOSED", color: "#93d2c2" },   // ring 1
+    { name: "CONTAIN", color: "#fbdb84" },    // ring 2
+    { name: "AVOID", color: "#efafa9" }       // ring 3
   ],
   print_layout: true,
   //zoomed_quadrant: 1,
@@ -104,22 +104,10 @@ radarData = {
       link: "https://github.com/NHSDigital/software-engineering-quality-framework/tree/main/tools/nhsd-git-secrets",
       moved: 0
     },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Browserstack",
-      active: false,
-      link: "../data_processing/aws_emr.html",
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Cucumber",
-      active: false,
-      link: "../data_processing/aws_emr.html",
-      moved: 0
-    },
+    { label: "Browserstack", quadrant: 1, ring: 0, moved: 0, active: false, link: "../data_processing/aws_emr.html" },
+    { label: "Cucumber", quadrant: 1, ring: 0, moved: 0, active: false, link: "../data_processing/aws_emr.html" },
+    { label: "LocalStack", quadrant: 1, ring: 0, moved: 0, active: false, link: "#" },
+    { label: "WireMock", quadrant: 1, ring: 0, moved: 0, active: false, link: "#" },
     {
       quadrant: 1,
       ring: 0,
@@ -200,6 +188,8 @@ radarData = {
       link: "../data_processing/aws_emr.html",
       moved: 0
     },
+    { label: "Docker", quadrant: 2, ring: 0, moved: 0, active: false, link: "#" },
+    { label: "Git", quadrant: 2, ring: 0, moved: 0, active: false, link: "#" },
     {
       quadrant: 2,
       ring: 0,

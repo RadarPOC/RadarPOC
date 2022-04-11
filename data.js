@@ -7,7 +7,7 @@ radarData = {
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Tech Radar — April 2022",
+  title: "Tech Radar - Data - April 2022",
   quadrants: [
     { name: "Code analysis" },
     { name: "Test tools" },
