@@ -43,6 +43,14 @@ radarData = {
     {
       quadrant: 0,
       ring: 1,
+      label: "Dependabot",
+      active: false,
+      link: "#",
+      moved: 0
+    },
+    {
+      quadrant: 0,
+      ring: 1,
       label: "flake8",
       active: false,
       link: "#",
@@ -211,7 +219,15 @@ radarData = {
     {
       quadrant: 2,
       ring: 0,
-      label: "Gitlab",
+      label: "Gitlab - CDT",
+      active: false,
+      link: "#",
+      moved: 0
+    },
+    {
+      quadrant: 2,
+      ring: 3,
+      label: "Gitlab - Self Hosted",
       active: false,
       link: "#",
       moved: 0
