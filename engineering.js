@@ -24,6 +24,11 @@ radarData = {
   //zoomed_quadrant: 1,
   //ENTRIES
   entries: [
+    { quadrant: 0, ring: 0, label: "black", moved: 0, active: false, link: "#" },
+    { quadrant: 0, ring: 0, label: "EditorConfig", moved: 0, active: false, link: "#" },
+    { quadrant: 0, ring: 0, label: "flake8", moved: 0, active: false, link: "#" },
+    { quadrant: 0, ring: 0, label: "pylint", moved: 0, active: false, link: "#" },
+    { quadrant: 0, ring: 1, label: "tfsec", moved: 0, active: false, link: "#" },
     {
       quadrant: 0,
       ring: 0,
@@ -44,14 +49,6 @@ radarData = {
       quadrant: 0,
       ring: 1,
       label: "Dependabot",
-      active: false,
-      link: "#",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "flake8",
       active: false,
       link: "#",
       moved: 0
@@ -104,10 +101,10 @@ radarData = {
       link: "https://github.com/NHSDigital/software-engineering-quality-framework/tree/main/tools/nhsd-git-secrets",
       moved: 0
     },
-    { label: "Browserstack", quadrant: 1, ring: 0, moved: 0, active: false, link: "../data_processing/aws_emr.html" },
-    { label: "Cucumber", quadrant: 1, ring: 0, moved: 0, active: false, link: "../data_processing/aws_emr.html" },
-    { label: "LocalStack", quadrant: 1, ring: 0, moved: 0, active: false, link: "#" },
-    { label: "WireMock", quadrant: 1, ring: 0, moved: 0, active: false, link: "#" },
+    { quadrant: 1, ring: 0, label: "BrowserStack", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
+    { quadrant: 1, ring: 0, label: "Cucumber", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
+    { quadrant: 1, ring: 0, label: "LocalStack", moved: 0, active: false, link: "#" },
+    { quadrant: 1, ring: 0, label: "WireMock", moved: 0, active: false, link: "#" },
     {
       quadrant: 1,
       ring: 0,
@@ -188,8 +185,14 @@ radarData = {
       link: "../data_processing/aws_emr.html",
       moved: 0
     },
-    { label: "Docker", quadrant: 2, ring: 0, moved: 0, active: false, link: "#" },
-    { label: "Git", quadrant: 2, ring: 0, moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 0, label: "Docker", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 0, label: "git", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 1, label: "CircleCI", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 1, label: "Serverless Framework", moved: 0, active: false, link: "https://www.serverless.com/" },
+    { quadrant: 2, ring: 1, label: "Visual Studio Code", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 1, label: "Yarn", moved: 0, active: false, link: "https://yarnpkg.com/" },
+    { quadrant: 2, ring: 2, label: "Gradle", moved: 0, active: false, link: "#" },
     {
       quadrant: 2,
       ring: 0,
@@ -225,7 +228,7 @@ radarData = {
     {
       quadrant: 2,
       ring: 0,
-      label: "AWS CodeBuild/Commit/etc",
+      label: "AWS CodePipeline",
       active: false,
       link: "../data_processing/aws_emr.html",
       moved: 0
