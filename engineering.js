@@ -24,27 +24,15 @@ radarData = {
   //zoomed_quadrant: 1,
   //ENTRIES
   entries: [
-    { quadrant: 0, ring: 0, label: "black", moved: 0, active: false, link: "#" },
-    { quadrant: 0, ring: 0, label: "EditorConfig", moved: 0, active: false, link: "#" },
-    { quadrant: 0, ring: 0, label: "flake8", moved: 0, active: false, link: "#" },
-    { quadrant: 0, ring: 0, label: "pylint", moved: 0, active: false, link: "#" },
-    { quadrant: 0, ring: 1, label: "tfsec", moved: 0, active: false, link: "#" },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "SonarQube",
-      active: false,
-      link: "#",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "SonarCloud",
-      active: false,
-      link: "#",
-      moved: 0
-    },
+    { quadrant: 0, ring: 0, label: "black", moved: 0, active: false, link: "https://black.readthedocs.io/" },
+    { quadrant: 0, ring: 0, label: "EditorConfig", moved: 0, active: false, link: "https://editorconfig.org/" },
+    { quadrant: 0, ring: 0, label: "eslint", moved: 0, active: false, link: "https://eslint.org/" },
+    { quadrant: 0, ring: 0, label: "flake8", moved: 0, active: false, link: "https://flake8.pycqa.org/" },
+    { quadrant: 0, ring: 0, label: "pylint", moved: 0, active: false, link: "https://pylint.pycqa.org/" },
+    { quadrant: 0, ring: 0, label: "SonarQube", moved: 0, active: false, link: "https://www.sonarqube.org/" },
+    { quadrant: 0, ring: 0, label: "tslint", moved: 0, active: false, link: "https://palantir.github.io/tslint/" },
+    { quadrant: 0, ring: 1, label: "SonarCloud", moved: 0, active: false, link: "https://sonarcloud.io/" },
+    { quadrant: 0, ring: 1, label: "tfsec", moved: 0, active: false, link: "https://aquasecurity.github.io/tfsec/" },
     {
       quadrant: 0,
       ring: 1,
@@ -105,6 +93,10 @@ radarData = {
     { quadrant: 1, ring: 0, label: "Cucumber", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
     { quadrant: 1, ring: 0, label: "LocalStack", moved: 0, active: false, link: "#" },
     { quadrant: 1, ring: 0, label: "WireMock", moved: 0, active: false, link: "#" },
+    { quadrant: 1, ring: 1, label: "jest", moved: 0, active: false, link: "https://github.com/facebook/jest" },
+    { quadrant: 1, ring: 1, label: "mocha", moved: 0, active: false, link: "https://mochajs.org/" },
+    { quadrant: 1, ring: 1, label: "pytest", moved: 0, active: false, link: "https://pytest.org/" },
+    { quadrant: 1, ring: 2, label: "unittest", moved: 0, active: false, link: "https://docs.python.org/3/library/unittest.html" },
     {
       quadrant: 1,
       ring: 0,
@@ -185,14 +177,25 @@ radarData = {
       link: "../data_processing/aws_emr.html",
       moved: 0
     },
-    { quadrant: 2, ring: 0, label: "Docker", moved: 0, active: false, link: "#" },
-    { quadrant: 2, ring: 0, label: "git", moved: 0, active: false, link: "#" },
-    { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "#" },
-    { quadrant: 2, ring: 1, label: "CircleCI", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 0, label: "Docker", moved: 0, active: false, link: "https://www.docker.com/" },
+    { quadrant: 2, ring: 0, label: "git", moved: 0, active: false, link: "https://git-scm.com/" },
+    { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "https://www.gnu.org/software/make/" },
+    { quadrant: 2, ring: 0, label: "Maven", moved: 0, active: false, link: "https://maven.apache.org/" },
+    { quadrant: 2, ring: 0, label: "Terraform", moved: 0, active: false, link: "https://www.terraform.io/" },
+    { quadrant: 2, ring: 1, label: "CircleCI", moved: 0, active: false, link: "https://circleci.com/" },
+    { quadrant: 2, ring: 1, label: "Jekyll", moved: 0, active: false, link: "https://jekyllrb.com/" },
+    { quadrant: 2, ring: 1, label: "Pulumi", moved: 0, active: false, link: "https://www.pulumi.com/" },
     { quadrant: 2, ring: 1, label: "Serverless Framework", moved: 0, active: false, link: "https://www.serverless.com/" },
-    { quadrant: 2, ring: 1, label: "Visual Studio Code", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 1, label: "Visual Studio Code", moved: 0, active: false, link: "https://code.visualstudio.com/" },
     { quadrant: 2, ring: 1, label: "Yarn", moved: 0, active: false, link: "https://yarnpkg.com/" },
-    { quadrant: 2, ring: 2, label: "Gradle", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 2, label: "Ansible", moved: 0, active: false, link: "https://www.ansible.com/" },
+    { quadrant: 2, ring: 2, label: "Gradle", moved: 0, active: false, link: "https://gradle.org/" },
+    { quadrant: 2, ring: 2, label: "Kubernetes", moved: 0, active: false, link: "https://kubernetes.io/" },
+    { quadrant: 2, ring: 2, label: "Packer", moved: 0, active: false, link: "https://www.packer.io/" },
+    { quadrant: 2, ring: 2, label: "Vagrant", moved: 0, active: false, link: "https://www.vagrantup.com/" },
+    { quadrant: 2, ring: 2, label: "VirtualBox", moved: 0, active: false, link: "https://www.virtualbox.org/" },
+    { quadrant: 2, ring: 3, label: "Chef", moved: 0, active: false, link: "https://www.chef.io/" },
+    { quadrant: 2, ring: 3, label: "Puppet", moved: 0, active: false, link: "https://puppet.com/" },
     {
       quadrant: 2,
       ring: 0,
@@ -212,7 +215,7 @@ radarData = {
     {
       quadrant: 2,
       ring: 0,
-      label: "Gitlab - CDT",
+      label: "GitLab (CDT)",
       active: false,
       link: "#",
       moved: 0
@@ -220,7 +223,7 @@ radarData = {
     {
       quadrant: 2,
       ring: 3,
-      label: "Gitlab - Self Hosted",
+      label: "GitLab (self-hosted)",
       active: false,
       link: "#",
       moved: 0
@@ -289,6 +292,7 @@ radarData = {
       link: "../data_processing/aws_emr.html",
       moved: 0
     },
+    { quadrant: 3, ring: 1, label: "Slack", moved: 0, active: false, link: "https://slack.com/" },
     {
       quadrant: 3,
       ring: 1,
