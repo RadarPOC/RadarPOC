@@ -91,7 +91,7 @@ radarData = {
     },
     { quadrant: 1, ring: 0, label: "BrowserStack", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
     { quadrant: 1, ring: 0, label: "Cucumber", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
-    { quadrant: 1, ring: 0, label: "LocalStack", moved: 0, active: false, link: "#" },
+    { quadrant: 1, ring: 2, label: "LocalStack", moved: 0, active: false, link: "#" },
     { quadrant: 1, ring: 0, label: "WireMock", moved: 0, active: false, link: "#" },
     { quadrant: 1, ring: 1, label: "jest", moved: 0, active: false, link: "https://github.com/facebook/jest" },
     { quadrant: 1, ring: 1, label: "mocha", moved: 0, active: false, link: "https://mochajs.org/" },
