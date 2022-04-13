@@ -115,6 +115,14 @@ radarData = {
     },
     {
       quadrant: 1,
+      ring: 1,
+      label: "Moto",
+      active: false,
+      link: "../data_processing/aws_emr.html",
+      moved: 0
+    },
+    {
+      quadrant: 1,
       ring: 0,
       label: "Postman",
       active: false,
