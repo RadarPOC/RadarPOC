@@ -191,7 +191,7 @@ radarData = {
     { quadrant: 2, ring: 2, label: "Chef", moved: 0, active: false, link: "https://www.chef.io/" },
     { quadrant: 2, ring: 2, label: "Gradle", moved: 0, active: false, link: "https://gradle.org/" },
     { quadrant: 2, ring: 2, label: "Packer", moved: 0, active: false, link: "https://www.packer.io/" },
-    { quadrant: 2, ring: 2, label: "Phisycal Developer Laptops", moved: 0, active: false, link: "#" },
+    { quadrant: 2, ring: 2, label: "Physical Developer Laptops", moved: 0, active: false, link: "#" },
     { quadrant: 2, ring: 2, label: "Puppet", moved: 0, active: false, link: "https://puppet.com/" },
     { quadrant: 2, ring: 2, label: "Vagrant", moved: 0, active: false, link: "https://www.vagrantup.com/" },
     { quadrant: 2, ring: 2, label: "VirtualBox", moved: 0, active: false, link: "https://www.virtualbox.org/" },
