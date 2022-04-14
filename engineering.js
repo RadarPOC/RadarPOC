@@ -33,22 +33,8 @@ radarEngineeringData = {
     { quadrant: 0, ring: 0, label: "tslint", moved: 0, active: false, link: "https://palantir.github.io/tslint/" },
     { quadrant: 0, ring: 1, label: "SonarCloud", moved: 0, active: false, link: "https://sonarcloud.io/" },
     { quadrant: 0, ring: 1, label: "tfsec", moved: 0, active: false, link: "https://aquasecurity.github.io/tfsec/" },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "Dependabot",
-      active: false,
-      link: "#",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "AWS CodeGuru",
-      active: false,
-      link: "#",
-      moved: 0
-    },
+    { quadrant: 0, ring: 1, label: "Dependabot", active: false, link: "#", moved: 0 },
+    { quadrant: 0, ring: 1, label: "AWS CodeGuru", active: false, link: "#", moved: 0},
     {
       quadrant: 0,
       ring: 1,
