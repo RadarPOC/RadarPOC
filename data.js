@@ -1,4 +1,4 @@
-radarData = {
+radarApplicationData = {
   svg_id: "radar",
   width: 1450,
   height: 1200,

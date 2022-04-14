@@ -8,25 +8,25 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="radar.js"></script>
   <script src="engineering.js"></script>
+  <script src="data.js"></script>
   <link rel="stylesheet" href="radar.css">
 </head>
 
 <body>
   <svg id="radar"></svg>
-  <script>
-    radar_visualization(radarData);
-  </script>
   <table>
     <tr>
       <td colspan=2>
         <h3>What is the Tech Radar?</h3>
-        <p>The Tech Radar is a list of technologies, organised into groups (or "quadrants") and complemented by an 
+        <p>The Tech Radar is a list of technologies, organised into groups (or "quadrants") and complemented by an
           assessment result, called <em>ring assignment</em>. We have two radars:</p>
         <ul>
-          <li><strong>ENGINEERING RADAR</strong> &mdash; Technologies we use to construct and operate products: if
-            these technologies fail, our products will not be directly impacted, but we as a team will be impacted.</li>
-          <li><strong>APPLICATION RADAR</strong> &mdash; Technologies that directly make up those products: if these 
-            technologies fail, our products fail / are directly impacted.</li>
+          <li><a href="#" onclick="load_radar(radarEngineeringData);"><strong>ENGINEERING RADAR</strong></a> &mdash;
+            Technologies we use to construct and operate products: if these technologies fail, our products will not
+            be directly impacted, but we as a team will be impacted.</li>
+          <li><a href="#" onclick="load_radar(radarApplicationData);"><strong>APPLICATION RADAR</strong></a> &mdash;
+            Technologies that directly make up those products: if these technologies fail, our products fail / are
+            directly impacted.</li>
         </ul>
       </td>
     </tr>
@@ -47,20 +47,52 @@
       </td>
       <td>
         <h3>What do the quadrants mean?</h3>
-        <p>We classify Engineering technologies via these four quadrants:</p>
-        <ul>
-          <li><strong>BUILD TOOLS</strong> &mdash; Technologies that we use to build the product artefacts, including
-            code repositories, CI/CD tools, build/packaging tools, etc.</li>
-          <li><strong>OBSERVABILITY</strong> &mdash; Technologies that we use to observe operational products, e.g. 
-            log aggregation, monitoring, and alerting.</li>
-          <li><strong>TEST TOOLS</strong> &mdash; Technologies that we use to test running software, both functional
-            and non-functional testing (e.g. resilience testing).</li>
-          <li><strong>CODE ANALYSIS</strong> &mdash; Technologies that we use for static-code analysis, including 
-            code hygiene, security hotspots, scanning code for secrets, etc.</li>
-        </ul>
+        <div id="Engineering-Quadrants-List">
+          <p>We classify Engineering technologies via these four quadrants:</p>
+          <ul>
+            <li><strong>BUILD TOOLS</strong> &mdash; Technologies that we use to build the product artefacts, including
+              code repositories, CI/CD tools, build/packaging tools, etc.</li>
+            <li><strong>OBSERVABILITY</strong> &mdash; Technologies that we use to observe operational products, e.g.
+              log aggregation, monitoring, and alerting.</li>
+            <li><strong>TEST TOOLS</strong> &mdash; Technologies that we use to test running software, both functional
+              and non-functional testing (e.g. resilience testing).</li>
+            <li><strong>CODE ANALYSIS</strong> &mdash; Technologies that we use for static-code analysis, including
+              code hygiene, security hotspots, scanning code for secrets, etc.</li>
+          </ul>
+        </div>
+        <div id="Application-Quadrants-List">
+          <p>We classify Application technologies via these four quadrants:</p>
+          <ul>
+            <li><strong>LANGUAGES</strong> &mdash; Scripting and application-development languages, including scripting
+              for infrastrcuture .</li>
+            <li><strong>PERSISTENCE</strong> &mdash; Technologies that we use to store data / state, e.g. databases,
+              file systems, etc.</li>
+            <li><strong>PLATFORM TOOLS</strong> &mdash; Technologies on which we run software , e.g. operating systems
+              and compute services.</li>
+            <li><strong>OTHER</strong> &mdash; Dumping ground for anything that doesn't fit anywhere yet.</li>
+          </ul>
+        </div>
       </td>
     </tr>
   </table>
+  <script>
+    function load_radar(data) {
+      var svg = d3.select("svg#radar")
+      svg.selectAll("*").remove();
+      radar_visualization(data);
+      var applicationQuadrantsList = document.getElementById("Application-Quadrants-List");
+      var engineeringQuadrantsList = document.getElementById("Engineering-Quadrants-List");
+      if (data == radarEngineeringData) {
+        applicationQuadrantsList.style.display = "none";
+        engineeringQuadrantsList.style.display = "block";
+      } else {
+        applicationQuadrantsList.style.display = "block";
+        engineeringQuadrantsList.style.display = "none";
+      }
+      event.preventDefault();       // don't reload the page
+    }
+    load_radar(radarEngineeringData);
+  </script>
 </body>
 
 </html>
