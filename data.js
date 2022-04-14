@@ -1,4 +1,4 @@
-radarApplicationData = {
+radarArchiveData = {
   svg_id: "radar",
   width: 1450,
   height: 1200,
@@ -9,14 +9,10 @@ radarApplicationData = {
   },
   title: "Tech Radar - Data - April 2022",
   quadrants: [
-    { name: "Code analysis" },
-    { name: "Test tools" },
-    { name: "Build tools" },
-    { name: "Observability"},
-    // { name: "Dave 1" },
-    // { name: "Dave 2" },
-    // { name: "Dave 3" },
-    // { name: "Dave 4" }
+    { name: "Platform tools" },
+    { name: "Other" },
+    { name: "Languages" },
+    { name: "Persistence"},
   ],
   rings: [
     { name: "MAINSTREAM", color: "#93c47d" },
