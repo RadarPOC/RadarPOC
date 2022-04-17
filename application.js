@@ -9,21 +9,31 @@ radarApplicationData = {
   },
   title: "Tech Radar - Application - April 2022",
   quadrants: [
-    { name: "Platform tools" }, // 0
-    { name: "Other" },          // 1
-    { name: "Languages" },      // 2
-    { name: "Persistence" },    // 3
+    { name: "Platform tools" }, // quadrant 0
+    { name: "Other" },          // quadrant 1
+    { name: "Languages" },      // quadrant 2
+    { name: "Persistence" },    // quadrant 3
   ],
   rings: [
-    { name: "MAINSTREAM", color: "#93c47d" },
-    { name: "PROPOSED", color: "#93d2c2" },
-    { name: "CONTAIN", color: "#fbdb84" },
-    { name: "AVOID", color: "#efafa9" },
+    { name: "MAINSTREAM", color: "#93c47d" }, // ring 0
+    { name: "PROPOSED", color: "#93d2c2" },   // ring 1
+    { name: "CONTAIN", color: "#fbdb84" },    // ring 2
+    { name: "AVOID", color: "#efafa9" },      // ring 3
   ],
   print_layout: true,
   entries: [
+
+    // Notes & Questions:
+    //  - We could standardise on naming, (not always an easy thing e.g. "Spring Boot" vs. "Spring Framework") but this would help us to integrate later with a BOM producer/scanner
+    //  - Would we prefer Scala over Erlang?
+    //  - Do we have any services using Ruby?
+    //  - Would we go as far as saying to contain JavaScript in favour of TypeScript?
+
     // Platform tools
+    { "quadrant": 0, "ring": 0, "label": "Alpine (Docker image)", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 0, "ring": 0, "label": "Amazon ECS", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Amazon EKS", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 0, "ring": 0, "label": "Amazon Fargate", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "AWS Lambda", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Azure AKS", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Azure VMs", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
@@ -46,12 +56,15 @@ radarApplicationData = {
     { "quadrant": 2, "ring": 0, "label": "Node js", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 0, "label": "Python", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 0, "label": "React.js", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 2, "ring": 0, "label": "TypeScript", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 0, "label": "Vue.js", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 1, "label": "Erlang", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 1, "label": "Golang", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 1, "label": "R", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 1, "label": "Ruby", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 2, "ring": 1, "label": "Scala", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 2, "label": "Angular.js", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 2, "ring": 2, "label": "JavaScript", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 3, "label": ".Net Framework", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 3, "label": "Java EE", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 3, "label": "PHP", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
