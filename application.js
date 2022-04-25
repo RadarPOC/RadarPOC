@@ -31,7 +31,7 @@ radarApplicationData = {
     //  - How detailed would we like to be, e.g. is 'Apache Kafka' fine with a caveat that a CP managed service should be used?
 
     // Platform tools
-    { "quadrant": 0, "ring": 0, "label": "Alpine (Docker image)", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 0, "ring": 0, "label": "Alpine", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Amazon ECS", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Amazon EKS", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 0, "label": "Amazon Fargate", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
@@ -52,12 +52,6 @@ radarApplicationData = {
     { "quadrant": 0, "ring": 3, "label": "Kubernetes", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 3, "label": "RHEL", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     // Other
-    { "quadrant": 1, "ring": 0, "label": "Domain-driven design (DDD)", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
-    { "quadrant": 1, "ring": 0, "label": "Test-driven development (TDD)", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
-    { "quadrant": 1, "ring": 1, "label": "Compliance as a service", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
-    { "quadrant": 1, "ring": 1, "label": "Diagram as code", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
-    { "quadrant": 1, "ring": 1, "label": "Event-driven architecture", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
-    { "quadrant": 1, "ring": 1, "label": "Fitness function", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     // Languages
     { "quadrant": 2, "ring": 0, "label": ".Net Core", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 0, "label": "Java Spring", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
