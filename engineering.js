@@ -173,6 +173,7 @@ radarEngineeringData = {
       moved: 0
     },
     // Build tools
+    { quadrant: 2, ring: 0, label: "Terraform", moved: 0, active: false, link: "https://www.terraform.io/" },
     { quadrant: 2, ring: 0, label: "Docker", moved: 0, active: false, link: "https://www.docker.com/" },
     { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "https://www.gnu.org/software/make/" },
     { quadrant: 2, ring: 0, label: "Maven", moved: 0, active: false, link: "https://maven.apache.org/" },
@@ -333,6 +334,14 @@ radarEngineeringData = {
       quadrant: 3,
       ring: 1,
       label: "Prometheus",
+      active: false,
+      link: "../data_processing/aws_emr.html",
+      moved: 0
+    },
+    {
+      quadrant: 3,
+      ring: 1,
+      label: "Grafana",
       active: false,
       link: "../data_processing/aws_emr.html",
       moved: 0
