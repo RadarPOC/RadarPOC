@@ -69,6 +69,14 @@ radarEngineeringData = {
     },
     {
       quadrant: 0,
+      ring: 1,
+      label: "https://scan.coverity.com",
+      active: false,
+      link: "#",
+      moved: 0
+    },
+    {
+      quadrant: 0,
       ring: 0,
       label: "nhsd-git-secrets",
       active: true,
