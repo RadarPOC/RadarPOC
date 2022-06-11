@@ -72,6 +72,7 @@ radarApplicationData = {
     { "quadrant": 2, "ring": 3, "label": "PHP", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     // Persistence
     { "quadrant": 3, "ring": 0, "label": "Amazon Kinesis", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
+    { "quadrant": 3, "ring": 0, "label": "RDS Postgres", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 3, "ring": 1, "label": "Apache Kafka", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
   ]
 };
