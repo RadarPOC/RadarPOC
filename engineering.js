@@ -185,6 +185,7 @@ radarEngineeringData = {
     { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "https://www.gnu.org/software/make/" },
     { quadrant: 2, ring: 0, label: "Maven", moved: 0, active: false, link: "https://maven.apache.org/" },
     { quadrant: 2, ring: 0, label: "Visual Studio Code", moved: 0, active: false, link: "https://code.visualstudio.com/" },
+    { quadrant: 2, ring: 1, label: "Kanbanize", moved: 0, active: false, link: "https://kanbanize.com/" },
     { quadrant: 2, ring: 1, label: "CircleCI", moved: 0, active: false, link: "https://circleci.com/" },
     { quadrant: 2, ring: 1, label: "GitHub Codespaces", moved: 0, active: false, link: "https://github.com/features/codespaces" },
     { quadrant: 2, ring: 1, label: "Jekyll", moved: 0, active: false, link: "https://jekyllrb.com/" },
