@@ -29,10 +29,10 @@ radarEngineeringData = {
     { quadrant: 0, ring: 0, label: "pylint", moved: 0, active: false, link: "https://pylint.pycqa.org/" },
     { quadrant: 0, ring: 0, label: "SonarQube", moved: 0, active: false, link: "https://www.sonarqube.org/" },
     { quadrant: 0, ring: 0, label: "tslint", moved: 0, active: false, link: "https://palantir.github.io/tslint/" },
+    { quadrant: 0, ring: 0, label: "SonarCloud", moved: 1, active: false, link: "https://sonarcloud.io/" },
     { quadrant: 0, ring: 1, label: "AWS CodeGuru", active: false, link: "#", moved: 0},
     { quadrant: 0, ring: 1, label: "Dependabot", active: false, link: "#", moved: 0 },
     { quadrant: 0, ring: 1, label: "grype", moved: 0, active: false, link: "https://github.com/anchore/grype" },
-    { quadrant: 0, ring: 1, label: "SonarCloud", moved: 0, active: false, link: "https://sonarcloud.io/" },
     { quadrant: 0, ring: 1, label: "syft", moved: 0, active: false, link: "https://github.com/anchore/syft" },
     { quadrant: 0, ring: 1, label: "tfsec", moved: 0, active: false, link: "https://aquasecurity.github.io/tfsec/" },
     {
@@ -185,6 +185,7 @@ radarEngineeringData = {
     { quadrant: 2, ring: 0, label: "make", moved: 0, active: false, link: "https://www.gnu.org/software/make/" },
     { quadrant: 2, ring: 0, label: "Maven", moved: 0, active: false, link: "https://maven.apache.org/" },
     { quadrant: 2, ring: 0, label: "Visual Studio Code", moved: 0, active: false, link: "https://code.visualstudio.com/" },
+    { quadrant: 2, ring: 0, label: "GitHub", active: false, link: "#", moved: 1 },
     { quadrant: 2, ring: 1, label: "Kanbanize", moved: 0, active: false, link: "https://kanbanize.com/" },
     { quadrant: 2, ring: 1, label: "CircleCI", moved: 0, active: false, link: "https://circleci.com/" },
     { quadrant: 2, ring: 1, label: "GitHub Codespaces", moved: 0, active: false, link: "https://github.com/features/codespaces" },
@@ -204,14 +205,6 @@ radarEngineeringData = {
       quadrant: 2,
       ring: 0,
       label: "Azure Devops",
-      active: false,
-      link: "#",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "GitHub",
       active: false,
       link: "#",
       moved: 0
