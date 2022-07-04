@@ -291,6 +291,7 @@ radarEngineeringData = {
     },
     // Observability
     { quadrant: 3, ring: 1, label: "Slack", moved: 0, active: false, link: "https://slack.com/" },
+    { quadrant: 3, ring: 1, label: "AWS Workload Discovery", moved: 0, active: false, link: "https://aws.amazon.com/solutions/implementations/aws-perspective/" },
     {
       quadrant: 3,
       ring: 1,
