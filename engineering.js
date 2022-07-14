@@ -84,7 +84,7 @@ radarEngineeringData = {
       moved: 0
     },
     // Test tools
-    { quadrant: 1, ring: 0, label: "BrowserStack", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
+    { quadrant: 1, ring: 0, label: "BrowserStack", moved: 1, active: false, link: "../data_processing/aws_emr.html" },
     { quadrant: 1, ring: 0, label: "Cucumber", moved: 0, active: false, link: "../data_processing/aws_emr.html" },
     { quadrant: 1, ring: 0, label: "WireMock", moved: 0, active: false, link: "#" },
     { quadrant: 1, ring: 1, label: "jest", moved: 0, active: false, link: "https://github.com/facebook/jest" },
@@ -291,7 +291,8 @@ radarEngineeringData = {
     },
     // Observability
     { quadrant: 3, ring: 1, label: "Slack", moved: 0, active: false, link: "https://slack.com/" },
-    { quadrant: 3, ring: 1, label: "AWS Workload Discovery", moved: 0, active: false, link: "https://aws.amazon.com/solutions/implementations/aws-perspective/" },
+    { quadrant: 3, ring: 1, label: "AWS Workload Discovery", moved: 1, active: false, link: "https://aws.amazon.com/solutions/implementations/aws-perspective/" },
+    { quadrant: 3, ring: 1, label: "AWS Resilience Hub", moved: 1, active: false, link: "https://aws.amazon.com/resilience-hub/" },
     {
       quadrant: 3,
       ring: 1,
