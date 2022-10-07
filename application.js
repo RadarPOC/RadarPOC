@@ -52,6 +52,7 @@ radarApplicationData = {
     { "quadrant": 0, "ring": 3, "label": "Kubernetes", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 0, "ring": 3, "label": "RHEL", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     // Other
+    { "quadrant": 1, "ring": 2, "label": "Talend", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     // Languages
     { "quadrant": 2, "ring": 0, "label": ".Net Core", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
     { "quadrant": 2, "ring": 0, "label": "Java Spring", "active": false, "link": "../data_processing/aws_emr.html", "moved": 0 },
