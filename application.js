@@ -7,7 +7,7 @@ radarApplicationData = {
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Tech Radar - Application - April 2022",
+  title: "Tech Radar - Application",
   quadrants: [
     { name: "Platform tools" }, // quadrant 0
     { name: "Other" },          // quadrant 1
