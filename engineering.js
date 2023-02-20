@@ -7,7 +7,7 @@ radarEngineeringData = {
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Tech Radar - Engineering - April 2022",
+  title: "Tech Radar - Engineering",
   quadrants: [
     { name: "Code analysis" },  // quadrant 0
     { name: "Test tools" },     // quadrant 1
